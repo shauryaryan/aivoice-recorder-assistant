@@ -1,0 +1,50 @@
+/* Global Styles */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+h1, h2 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+/* Button Styles */
+button {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #D4AF37;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Layout Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.audio-controls {
+  margin-top: 20px;
+}
+
+.transcription {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: Georgia, serif;
+}
+
